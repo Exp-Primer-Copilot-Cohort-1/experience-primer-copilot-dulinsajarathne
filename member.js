@@ -7,7 +7,7 @@ function skillsMember() {
   docRef.get().then(function(doc) {
     if (doc.exists) {
       var data = doc.data();
-      skills = data.skills;
+      skills = data.skills;git commit -m "Copilot second commit"
     }
   });
   return skills;
